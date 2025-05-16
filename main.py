@@ -1,0 +1,1 @@
+from fastapp import App
