@@ -1,5 +1,6 @@
-from dataclasses import dataclssss
+def get_incomes(sum_str: str) -> int | None:
+  """Приводим сумму строкой к числу"""
+  sum_str.replace(" ", "")
 
-@dataclass
-class User:
-  user: intt
+  if sum_str.isdigit():
+    return int(sum_str)
